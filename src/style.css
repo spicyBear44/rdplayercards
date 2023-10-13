@@ -1,0 +1,175 @@
+body {
+    background-image: url(https://www.thesun.co.uk/wp-content/uploads/2022/03/NINTCHDBPICT000588667985.jpg);
+    background-attachment: fixed; /* Keep the background fixed */
+    background-size:cover;
+
+}
+
+
+
+
+#header {
+    background: linear-gradient(to left, rgb(166, 19, 19), rgb(27, 29, 30));
+    background-size: 100% auto; /* Image will stretch horizontally to cover the width */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center top; /* Center the image horizontally and align it to the top */
+    color: rgb(243, 233, 233);
+    padding: 20px;
+    text-align: center;
+    height: 100px; /* Fixed height of the header */
+    position: relative;
+}
+
+#header::before {
+    content: "";
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/555/243/desktop-wallpaper-man-utd-red-devil-manchester-united.jpg');
+    background-size: contain; /* Adjust the size of the logo */
+    background-repeat: no-repeat; /* Prevent repeating */
+    width: 246px; /* Set the width of the logo */
+    height: 251.4px; /* Set the height of the logo */
+    position: absolute; /* Position the logo absolutely */
+    top: 50%; /* Align the logo vertically to the middle of the header */
+    left: 20px; /* Adjust the left position of the logo as needed */
+    transform: translateY(-50%); /* Center the logo vertically */
+    margin-top: 55.79px;
+    margin-left: 0px;
+    z-index:500;
+
+}
+
+
+.vertical-line {
+    border-left: 9px solid;
+    border-radius:0px;
+    height: 100%; /* Set the height to 100% to cover the entire height of the viewport */
+    position: fixed; /* Fixed position so it stays on the left side */
+    left: 0; /* Position it at the far left */
+    top: 0; /* Position it at the top */
+}
+
+.vertical-line {
+    border-right: 9px solid;
+    border-radius:0px;
+    height: 100%; /* Set the height to 100% to cover the entire height of the viewport */
+    position: fixed; /* Fixed position so it stays on the left side */
+    left: 0; /* Position it at the far left */
+    top: 0; /* Position it at the top */
+
+}
+
+
+
+.vertical-line {
+    border-top: 16px solid;
+    border-color: rgb(27, 29, 30);
+    border-radius:0px;
+    height: 100%; /* Set the height to 100% to cover the entire height of the viewport */
+    position: fixed; /* Fixed position so it stays on the left side */
+    right: 0; /* Position it at the far left */
+    top: 0; /* Position it at the top */
+}
+
+.bg {
+    display: block;
+    position: absolute;
+    box-shadow: 2px 40px 50px rgba(0, 0, 0, 0);
+    box-shadow: 20px 0px 15px 15px rgba(0, 0, 0, 0.5);
+    border-radius:3px;
+    top: -120;
+    left: 0;
+    width: 100%;
+    height: 515px;; /* Adjust the height as needed */
+    background-color: rgb(243, 233, 233);
+    overflow-x: hidden;
+    z-index: index 2;
+}
+
+.custom-background {
+    position: relative;
+    top:70em;
+    width: 100%;
+    height: 8vh; /* Adjust the height as needed */
+    z-index: 2; /* Ensure the image is above the wave background */
+}
+
+.custom-background img {
+    position: absolute;
+    top:10px;
+    left: 10px;
+    height: 526%;
+    width: 35%;
+    border-radius:100% ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.5);
+    object-fit: cover;
+    z-index: 3;
+}
+
+
+.quote {
+    position: absolute;
+    top: 250px; /* Adjust the vertical position */
+    left: 650px; /* Adjust the horizontal position */
+    transform: translate(-10%, -50%); /* Center the quote text */
+    text-align: center; /* Center-align the text */
+    font-size: 34px; /* Adjust the font size as needed */
+    font-family:cursive;
+    color: #0a0000; /* Text color */
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 80%; /* Limit the width to 80% of the container */
+    z-index: 4; /* Ensure the quote is above other elements */
+}
+
+.more-info {
+    position: absolute;
+    top: 470px;
+    left: 1120px;
+    transform: translate(-10%, -50%);
+    text-align: center;
+    font-size: 5px;
+    color: #0a0000;
+    padding: 2px;
+    max-width: 80%;
+    z-index: 40;
+}
+
+.more-info img {
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto;
+    max-width:15%; /* Ensure the image doesn't exceed the width of its container */
+    height: 130%;
+    margin-top:-15px;
+    margin-left:260px;
+
+    border-radius: 5px; /* Add a rounded border */
+}
+
+.comment-form {
+    position: absolute;
+    top: 1655px;
+    left: 10px;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    z-index:10;
+}
+
+.sButton {
+    color:white;
+    padding:5px;
+    margin-top:10px;
+    margin-left:30px;
+    border-radius:4px;
+    background: linear-gradient(to left, rgb(166, 19, 19), rgb(27, 29, 30));
+    cursor: pointer;
+}
+
+.sButton:hover {
+    transform: scale(1.04);
+};
+
+
+
+
+
