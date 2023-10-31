@@ -4,6 +4,7 @@ import CommentForm from './review';
 import styles from './style.css'
 
 
+
 const players = [
   {
     name: 'Marcus Rashford',
@@ -57,22 +58,23 @@ const players = [
 function App() {
   return (
     <div className={styles.App}>
+    
       <div className="player-container">
         <PlayerCard player={players[0]} className="player-card" />
       </div>
-      <div className="player-container1">
+      <div className="player-container">
         <PlayerCard player={players[1]} className="player-card2" />
       </div>
-      <div className = "player-container2">
+      <div className = "player-container">
         <PlayerCard player={players[2]} className="player-card3"/>
       </div>
-      <div className = "player-container3">
+      <div className = "player-container">
         <PlayerCard player={players[3]} className="player-card100"/>
       </div>
-      <div className = "player-container4">
+      <div className = "player-container">
         <PlayerCard player={players[4]} className="player-card4"/>
       </div>
-      <div className = "player-container5">
+      <div className = "player-container">
         <PlayerCard player={players[5]} className="player-card5"/>
       </div>
       <div className = "player-container6">

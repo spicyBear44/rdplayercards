@@ -1,43 +1,38 @@
-/* Style for the updated player card */
 .player-card {
   width: 200px; /* Adjust the width as needed */
   height: 200px; /* Adjust the height as needed */
   text-align: center;
-  position: relative;
+  position: absolute;
   margin: 10px; /* Adjust margins as needed */
   border-radius: 10px; /* Rounded border */
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s ease;
   background: linear-gradient(to left, rgb(166, 19, 19), rgb(27, 29, 30));
-  font-size:medium;
+  font-size: medium;
   font-weight: 200;
-  color:rgb(255, 255, 255);
-  font-family:monospace;
+  color: white;
+  font-family: monospace;
   border: 5px solid transparent;
-  position: absolute;
   margin-top:50px;
   margin-left:70px;
+}
 
+.player-card img {
+  width: 100%;
+  height: auto;
 }
 
 .player-card:hover {
   transform: scale(1.04);
 }
 
-
-/* Style the player card image */
-.player-card img {
-  width: 100%;
-  height: auto;
-}
-
 /* Style the player info box */
-.player-info{
+.player-card .player-info {
   background-color: white;
   color: rgb(0, 0, 0);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size:small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
   padding: 10px;
   position: absolute;
   bottom: 0;
@@ -53,7 +48,7 @@
 /* Expanded state */
 .player-card.expanded .player-info {
   height: auto;
-  opacity: 4; /* Set to visible when expanded */
+  opacity: 1; /* Set opacity to fully visible when expanded */
 }
 
 
@@ -63,12 +58,12 @@
 
 /* player-card2 */
 .player-card2 {
-  width: 200px; /* Adjust the width as needed */
-  height: 200px; /* Adjust the height as needed */
+  width: 200px;
+  height: 200px;
   text-align: center;
   position: relative;
-  margin: 10px; /* Adjust margins as needed */
-  border-radius: 10px; /* Rounded border */
+  margin: 10px;
+  border-radius: 10px;
   overflow: hidden;
   cursor:pointer;
   transition: transform 0.3s ease;
@@ -81,8 +76,16 @@
   position: absolute;
   margin-top:50px;
   margin-left:510px;
-
 }
+
+@media only screen and (max-width:580px){
+  .player-card{
+    margin-left:10px;
+  }
+  .player-card2{
+  margin-left:315px;
+  }
+  }
 
 .player-card2:hover {
   transform: scale(1.04);
@@ -205,6 +208,18 @@
 
 }
 
+@media only screen and (max-width:580px){
+  .player-card3{
+    margin-top:300px;
+    margin-left:10px;
+  }
+  .player-card4{
+  margin-top:300px;
+  margin-left:315px;
+  }
+
+  }
+
 .player-card4:hover {
   transform: scale(1.04);
 }
@@ -252,6 +267,7 @@
 
 /* player-card5 */
 
+
 .player-card5 {
   width: 200px; /* Adjust the width as needed */
   height: 200px; /* Adjust the height as needed */
@@ -269,25 +285,31 @@
   font-family:monospace;
   border: 5px solid transparent;
   position: absolute;
-  margin-top:750px;
+  margin-top:400px;
   margin-left:940px;
-
 }
+
+@media only screen and (max-width:580px){
+  .player-card5{
+    margin-left:315px;
+    margin-top: 796px;
+  }
+}
+
 
 .player-card5:hover {
   transform: scale(1.04);
 }
 
-
 /* Style the player card image */
 .player-card5 img {
   width: 100%;
-  height: auto;
+  height:auto;
 }
 
 /* Style the player info box */
-.player-info{
-  background-color: white;
+.player-info {
+  background-color: rgb(255,255,255);
   color: rgb(0, 0, 0);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size:small;
@@ -303,8 +325,9 @@
   opacity: 0; /* Initially set to invisible */
 }
 
+
 /* Expanded state */
-.player-card5.expanded .player-card5-info {
+.player-card5.expanded .player-card8-info {
   height: auto;
   opacity: 4; /* Set to visible when expanded */
 }
@@ -326,13 +349,19 @@
   background: linear-gradient(to left, rgb(166, 19, 19), rgb(27, 29, 30));
   font-size:medium;
   font-weight: 200;
-  color:white;
+  color:rgb(255, 255, 255);
   font-family:monospace;
   border: 5px solid transparent;
   position: absolute;
   margin-top:750px;
   margin-left:70px;
 
+}
+@media only screen and (max-width: 580px){
+  .player-card6{
+    margin-left:315px;
+    margin-top:547px;
+  }
 }
 
 .player-card6:hover {
@@ -375,7 +404,7 @@
 
 /* player-card7 */
 .player-card7 {
-  width: 220px; /* Adjust the width as needed */
+  width: 200px; /* Adjust the width as needed */
   height: 200px; /* Adjust the height as needed */
   text-align: center;
   position: relative;
@@ -393,7 +422,16 @@
   position: absolute;
   margin-top:750px;
   margin-left:510px;
+}
 
+@media only screen and (max-width:580px){
+  .player-card7{
+    margin-left:10px;
+    margin-top:547px;
+  }
+  .player-card8{
+    margin-left:315px;
+  }
 }
 
 .player-card7:hover {
@@ -450,9 +488,15 @@
   font-family:monospace;
   border: 5px solid transparent;
   position: absolute;
-  margin-top:400px;
+  margin-top:750px;
   margin-left:940px;
+}
 
+@media only screen and (max-width:580px){
+  .player-card8{
+    margin-left:10px;
+    margin-top: 796px;
+  }
 }
 
 .player-card8:hover {
@@ -492,152 +536,50 @@
 
 
 
+/*player-card100*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Style for the special player card */
 .player-card100 {
-  width: 220px;
-  height: 220px;
+  width: 220px; /* Adjust the width as needed */
+  height: 220px; /* Adjust the height as needed */
   text-align: center;
   position: relative;
-  margin: 11px;
-  border-radius: 11px;
+  margin: 10px; /* Adjust margins as needed */
+  border-radius: 10px; /* Rounded border */
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s ease;
   background: linear-gradient(to left, rgb(255, 217, 0), rgb(0, 0, 0));
-  font-size: large;
-  font-weight: 200;
-  color: white;
-  font-family:'Times New Roman', Times, serif;
   border: 7px solid transparent;
+  font-size:medium;
+  font-weight: 200;
+  color:white;
+  font-family:monospace;
+  border: 5px solid transparent;
   position: absolute;
-  margin-top: 400px;
-  margin-left: 510px;
-  /* Add a box shadow for a subtle depth effect */
+  margin-top:395px;
+  margin-left:500px;
   box-shadow: 0 0 10px rgba(1, 1, 1, 1.2);
-  /* Add a bright border glow on hover */
   transition: box-shadow 2.2s ease, border-color 2.9s ease;
 }
 
+@media only screen and (max-width:580px){
+  .player-card100{
+    margin-left:600px;
+    margin-top: 789px;
+
+  }
+}
+
+.player-card100:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 20px rgba(255, 217, 0, 2.5);
+  border-color: rgb(255, 217, 0);
+}
 
 /* Style the player card image */
 .player-card100 img {
   width: 100%;
-  height: auto;
+  height:auto;
 }
 
 /* Style the player info box */
@@ -654,10 +596,9 @@
   height: 0;
   overflow-y: scroll;
   max-height: 120px;
-  transition: height 0.3s ease, opacity 2s ease; /* Reduce opacity transition delay */
-  opacity: 0; /* Initially set to invisible */
+  transition: height 0.3s ease, opacity 2s ease;
+  opacity: 0;
 }
-
 .player-card100:hover {
   transform: scale(1.04);
   box-shadow: 0 0 20px rgba(255, 217, 0, 2.5); /* Adjust the glow color as needed */
@@ -665,31 +606,9 @@
 }
 
 /* Expanded state */
-.player-card100.expanded .player-info {
+.player-card100.expanded .player-card8-info {
   height: auto;
-  opacity: 1; /* Set opacity to fully visible when expanded */
+  opacity: 1; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
