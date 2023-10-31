@@ -97,7 +97,7 @@ header::before {
     top: -10px;
     left: 0;
     width:100%;
-    height:515px;; /* Adjust the height as needed */
+    height:530px;; /* Adjust the height as needed */
     background-color: rgb(243, 233, 233);
     z-index: 2;
 }
@@ -170,7 +170,7 @@ header::before {
     width:40px;
     height: 40px;
     margin-top:-15px;
-    margin-left:220px;
+    margin-left:255px;
 
     border-radius: 5px; /* Add a rounded border */
 }
