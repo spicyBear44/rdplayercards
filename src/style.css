@@ -13,8 +13,8 @@ body {
     background-size: 100% auto; /* Image will stretch horizontally to cover the width */
     background-repeat: no-repeat; /* Prevent repeating */
     background-position: center top; /* Center the image horizontally and align it to the top */
-    padding: 20px;
-    height: 100px;
+    padding: 16px;
+    height: 75px;
     margin-top:-14px;
     position: relative;
 }
@@ -39,21 +39,30 @@ header::before {
     background-image: url('https://e1.pxfuel.com/desktop-wallpaper/555/243/desktop-wallpaper-man-utd-red-devil-manchester-united.jpg');
     background-size: contain; /* Adjust the size of the logo */
     background-repeat: no-repeat; /* Prevent repeating */
-    width: 245px; /* Set the width of the logo */
-    height: 252.4px; /* Set the height of the logo */
+    width: 220px; /* Set the width of the logo */
+    height: 254.7px; /* Set the height of the logo */
     position: absolute; /* Position the logo absolutely */
     top: 51.6%; /* Align the logo vertically to the middle of the header */
     left: 20px; /* Adjust the left position of the logo as needed */
     transform: translateY(-50%); /* Center the logo vertically */
     margin-top: 55.79px;
-    margin-left: 0px;
+    margin-left: -10px;
     z-index:1;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 750px) {
     #header h1 {
+        margin-left:10px;
+        min-width:10px;
         text-align: end;
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    header::before{
+        margin-left:-60px;
+        margin-top:30px;
+        width:150px;
+        height:125px;
     }
 }
 
@@ -81,7 +90,7 @@ header::before {
 
 
 .vertical-line {
-    border-top: 16px solid;
+    border-top: 17.7px solid;
     border-color: rgb(27, 29, 30);
     border-radius:0px;
     height: 100%; /* Set the height to 100% to cover the entire height of the viewport */
