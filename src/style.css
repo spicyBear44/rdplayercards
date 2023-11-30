@@ -139,9 +139,9 @@ header::before {
     z-index: 3;
 }
 @media only screen and (max-width:580px){
-   .custom-background img {
+.custom-background img {
     top:370px;
-   }
+}
 }
 .custom-background .quote {
     position: absolute;
@@ -167,7 +167,7 @@ header::before {
 .custom-background .more-info {
     position: absolute;
     top:50%;
-    left:60%;
+    left:50%;
     transform: translate(85%, 1660%);
     background-color: rgb(243, 233, 233);
     text-align: center;
@@ -192,7 +192,7 @@ header::before {
     width:40px;
     height: 40px;
     margin-top:-15px;
-    margin-left:230px;
+    margin-left:255px;
 
     border-radius: 5px; /* Add a rounded border */
 }
