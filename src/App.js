@@ -33,7 +33,7 @@ const players = [
   },
   {
     name:'Diogo Dalot',
-    image:'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blte3c475fed327c227/6322101dbbe66a49b2d4b54d/Untitled_design_(6).jpg?auto=webp&format=pjpg&width=3840&quality=60',
+    image:'https://images4.alphacoders.com/128/1285618.jpg',
     bio:"José Diogo Dalot Teixeira, known as Dalot was born on March 18, 1999, in Braga, Portugal. His journey to prominence has been defined by versatility and youthful exuberance. Diogo Dalot's early career flourished at FC Porto, where he showcased his potential as a dynamic full-back, equally adept at both defending and attacking. Dalot's move to Manchester United presented an exciting chapter in his career. At Old Trafford, he embraced the challenge of playing in one of the world's most prestigious clubs, displaying a tireless work ethic and a willingness to adapt to various roles within the squad. As he continues to develop and mature, Diogo Dalot's bright future in football holds the promise of further growth and success, both for his club and on the international stage with the Portuguese national team. His journey exemplifies the ambition and determination of a new generation of football talent.",
   },
   {
